@@ -31,13 +31,13 @@ certifi==2024.8.30
     #   httpcore
     #   httpx
     #   requests
-cffi==1.17.1
+cffi==2.0.0
     # via cryptography
 charset-normalizer==3.4.0
     # via requests
 click==8.1.7
     # via flask
-cryptography==43.0.3
+cryptography==48.0.1
     # via google-cloud-alloydb-connector
 flask==3.0.3
     # via -r requirements.in
