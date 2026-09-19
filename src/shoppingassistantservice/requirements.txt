@@ -16,7 +16,7 @@ aiosignal==1.3.1
     # via aiohttp
 annotated-types==0.7.0
     # via pydantic
-anyio==4.6.2.post1
+anyio==4.14.2
     # via httpx
 asyncpg==0.30.0
     # via google-cloud-alloydb-connector
@@ -222,9 +222,7 @@ requests-toolbelt==1.0.0
 rsa==4.9
     # via google-auth
 sniffio==1.3.1
-    # via
-    #   anyio
-    #   httpx
+    # via httpx
 sqlalchemy[asyncio]==2.0.36
     # via
     #   langchain
@@ -237,6 +235,7 @@ tqdm==4.67.0
     # via google-generativeai
 typing-extensions==4.12.2
     # via
+    #   anyio
     #   google-generativeai
     #   langchain-core
     #   pydantic
