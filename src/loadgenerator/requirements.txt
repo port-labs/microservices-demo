@@ -63,7 +63,7 @@ six==1.16.0
     # via python-dateutil
 typing-extensions==4.12.2
     # via faker
-urllib3==2.2.3
+urllib3==2.8.0
     # via
     #   geventhttpclient
     #   requests
