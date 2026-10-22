@@ -164,7 +164,7 @@ packaging==24.2
     # via langchain-core
 pgvector==0.3.6
     # via langchain-google-alloydb-pg
-pillow==11.0.0
+pillow==13.0.0
     # via -r requirements.in
 propcache==0.2.0
     # via
