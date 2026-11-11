@@ -10,7 +10,7 @@ backoff==2.2.1
     #   opentelemetry-exporter-otlp-proto-grpc
 cachetools==5.3.2
     # via google-auth
-certifi==2023.7.22
+certifi==2026.10.18
     # via requests
 charset-normalizer==3.3.2
     # via requests
@@ -40,21 +40,21 @@ googleapis-common-protos==1.61.0
     # via
     #   google-api-core
     #   opentelemetry-exporter-otlp-proto-grpc
-grpcio==1.59.2
+grpcio==1.78.2
     # via
     #   grpcio-health-checking
     #   opentelemetry-exporter-otlp-proto-grpc
 grpcio-health-checking==1.59.2
     # via -r requirements.in
-httplib2==0.22.0
+httplib2==0.32.0
     # via
     #   google-api-python-client
     #   google-auth-httplib2
-idna==3.4
+idna==3.15
     # via requests
 importlib-metadata==6.8.0
     # via opentelemetry-api
-opentelemetry-api==1.20.0
+opentelemetry-api==1.45.2
     # via
     #   opentelemetry-distro
     #   opentelemetry-exporter-otlp-proto-grpc
@@ -86,14 +86,14 @@ opentelemetry-semantic-conventions==0.41b0
     # via
     #   opentelemetry-instrumentation-grpc
     #   opentelemetry-sdk
-protobuf==4.25.0
+protobuf==5.29.6
     # via
     #   google-api-core
     #   google-cloud-profiler
     #   googleapis-common-protos
     #   grpcio-health-checking
     #   opentelemetry-proto
-pyasn1==0.5.0
+pyasn1==0.6.5
     # via
     #   pyasn1-modules
     #   rsa
@@ -103,7 +103,7 @@ pyparsing==3.1.1
     # via httplib2
 python-json-logger==2.0.7
     # via -r requirements.in
-requests==2.31.0
+requests==2.33.0
     # via
     #   -r requirements.in
     #   google-api-core
@@ -116,14 +116,14 @@ typing-extensions==4.8.0
     # via opentelemetry-sdk
 uritemplate==4.1.1
     # via google-api-python-client
-urllib3==2.0.7
+urllib3==2.8.0
     # via requests
 wrapt==1.16.0
     # via
     #   deprecated
     #   opentelemetry-instrumentation
     #   opentelemetry-instrumentation-grpc
-zipp==3.17.0
+zipp==3.19.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
