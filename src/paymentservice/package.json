@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/profiler": "6.0.2",
-    "@grpc/grpc-js": "1.12.2",
+    "@grpc/grpc-js": "1.13.6",
     "@grpc/proto-loader": "0.7.13",
     "@opentelemetry/api": "1.9.0",
     "@opentelemetry/exporter-otlp-grpc": "0.26.0",
@@ -22,6 +22,6 @@
     "@opentelemetry/semantic-conventions": "1.28.0",
     "pino": "9.5.0",
     "simple-card-validator": "^1.1.0",
-    "uuid": "^11.0.0"
+    "uuid": "11.1.1"
   }
 }
